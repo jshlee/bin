@@ -1,0 +1,6 @@
+#!/bin/sh
+currentdir=`pwd`
+cd $SRT_CMSSW_BASE_SCRAMRTDEL/src
+echo in $SRT_CMSSW_BASE_SCRAMRTDEL/src
+scram b -j10
+cd $currentdir
